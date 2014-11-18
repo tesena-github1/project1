@@ -17,7 +17,7 @@ public class GoogleSuggest {
         
         // Enter the query string "Cheese"
         WebElement query = driver.findElement(By.name("q"));
-        query.sendKeys("Cheese");
+        query.sendKeys("Testing");
 
         // Sleep until the div we want is visible or 5 seconds is over
         long end = System.currentTimeMillis() + 5000;
